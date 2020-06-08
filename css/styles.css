@@ -1,0 +1,90 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Days One', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Sarpanch', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  background-color: white;*/
+  /*background: url('https://i.ibb.co/R7GXbR9/bg.png');
+  background: url('https://i.ibb.co/TqGXSJN/bg1.png');*/
+  background-color: black;
+  background-size: cover;
+  background-repeat: repeat;
+  color: white;
+  margin: 1% 14% 0 14%;
+  /*display: flex;
+  align-items: center;
+  /*height: 100vh;*/
+}
+
+@media (max-width: 1000px) {
+  body {
+    margin: 1% 2% 0 2%;
+  }
+}
+
+.navbar .dropdown {
+  position: relative;
+  z-index: 10000;
+}
+
+.logoimage {
+  width: 600px;
+}
+
+@media (max-width: 1000px) {
+  .logoimage {
+    width: 320px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .dropdownclass {
+  }
+}
+
+h5 {
+  font-size: 22px;
+}
+
+.rotate {
+  animation: rotation 9s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+.btn {
+  border-radius: 15px;
+  background-color: #8fff94;
+}
+
+.dropdown-item {
+  font-size: 20px;
+}
+
+.footer {
+  font-size: 14px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+  position: fixed;
+  font-weight: 400;
+  color: #8fff94;
+  background-color: black;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    font-size: 12px;
+  }
+}
